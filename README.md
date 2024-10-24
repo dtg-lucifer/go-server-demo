@@ -3,14 +3,14 @@ This is a demo go backend, build with **gin**, and **prisma** with **postgresql*
 
 ### Routes
 
-`/ping` - healthcheck route
-`/admin` - protected group route
-    `/admin/info` - get the info for currently logged in admin
-    `/admin/...` - coming soon
-`/auth` - route group for authentication stuff
-    `/auth/me` - returns the currently logged in users information
-    `/auth/login` - login routes
-    `/auth/register` - register routes
-    `/auth/logout` - logout routes
-`/todo` - todo route group for managing the todo
-    `/todo/...` - coming soon
+`/ping` - healthcheck route <br>
+`/admin` - protected group route <br>
+    `/admin/info` - get the info for currently logged in admin <br>
+    `/admin/...` - coming soon <br>
+`/auth` - route group for authentication stuff <br>
+    `/auth/me` - returns the currently logged in users information <br>
+    `/auth/login` - login routes <br>
+    `/auth/register` - register routes <br>
+    `/auth/logout` - logout routes <br>
+`/todo` - todo route group for managing the todo <br>
+    `/todo/...` - coming soon <br>
